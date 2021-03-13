@@ -77,13 +77,14 @@ evaluate-commands %sh{
         face global MenuInfo ${common_fg}
         face global Information ${common_fg},${ui_panel_bg}
         face global Error ${syntax_error}+f
-        face global StatusLine ${vcs_removed},${ui_panel_border}
-        face global StatusLineMode ${vcs_added},${ui_panel_border}+b
-        face global StatusLineInfo ${vcs_modified},${ui_panel_border}
-        face global StatusLineValue ${vcs_modified},${ui_panel_border}
-        face global StatusCursor ${common_fg},${common_accent}
-        face global Prompt ${ui_panel_border},${vcs_added}
+        face global StatusLine ${vcs_removed},${common_bg}
+        face global StatusLineMode ${vcs_added},${common_bg}+b
+        face global StatusLineInfo ${vcs_modified},${common_bg}
+        face global StatusLineValue ${vcs_modified},${common_bg}
+        face global StatusCursor ${common_fg},${common_bg}
+        face global Prompt ${ui_panel_border},${common_bg}
         face global MatchingChar default,${ui_panel_shadow}
-        face global BufferPadding default,${ui_guide_normal}
-        face global Whitespace ${ui_line}+f    "
+        face global BufferPadding ${common_bg},${common_bg}
+        face global Whitespace ${ui_line}+f
+    "
 }
