@@ -1,6 +1,7 @@
 evaluate-commands %sh{
     common_accent="rgb:ffcc66"
     common_bg="rgb:1f2430"
+    common_dark_bg="rgb:191e2a"
     common_fg="rgb:cbccc6"
     common_ui="rgb:707a8c"
     syntax_tag="rgb:5ccfe6"
@@ -77,11 +78,11 @@ evaluate-commands %sh{
         face global MenuInfo ${common_fg}
         face global Information ${common_fg},${ui_panel_bg}
         face global Error ${syntax_error}+f
-        face global StatusLine ${vcs_removed},${common_bg}
-        face global StatusLineMode ${vcs_added},${common_bg}+b
-        face global StatusLineInfo ${vcs_modified},${common_bg}
-        face global StatusLineValue ${vcs_modified},${common_bg}
-        face global StatusCursor ${common_fg},${common_bg}
+        face global StatusLine ${vcs_removed},${common_dark_bg}
+        face global StatusLineMode ${vcs_added},${common_dark_bg}+b
+        face global StatusLineInfo ${vcs_modified},${common_dark_bg}
+        face global StatusLineValue ${vcs_modified},${common_dark_bg}
+        face global StatusCursor ${common_fg},${common_dark_bg}
         face global Prompt ${ui_panel_border},${ui_panel_bg}
         face global MatchingChar default,${ui_panel_shadow}
         face global BufferPadding ${common_fg},${common_bg}
