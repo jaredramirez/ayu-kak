@@ -26,7 +26,7 @@ evaluate-commands %sh{
     ui_selection_inactive="rgb:2d3b4d"
     ui_selection_border="rgb:3c526a"
     ui_guide_active="rgb:707a8c"
-    ui_guide_normal="rgb:707a8c"
+    ui_guide_normal="rgb:3d4751"
     vcs_added="rgb:a6cc70"
     vcs_modified="rgb:77a8d9"
     vcs_removed="rgb:f27983"
